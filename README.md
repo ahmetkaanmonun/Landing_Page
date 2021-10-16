@@ -1,0 +1,1 @@
+https://ahmetkaanmonun.github.io/Landing_Page/
