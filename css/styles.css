@@ -12,7 +12,7 @@ body{
     display: flex;
     background-color: #1F2937;
     margin: 0;
-    padding: 0;
+    padding: 60px;
     
 
 }
@@ -49,11 +49,20 @@ body{
         
     
 }
+.navbar-links a:hover{
+
+    
+    color: #3882f6;
+    
+    
+        
+    
+}
 .content-section{
 
     display: flex;
     background-color: #1F2937;;
-    
+    padding: 50px;
 
 }
 .content-info{
@@ -95,5 +104,142 @@ body{
     flex: 2;
     text-align: center;
 
+
+}
+h3{
+
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+
+
+}
+.teams-section{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    font-size: 20px;
+
+}
+#gs-logo{
+
+    width: 80px;
+    height: auto;
+    
+
+
+}
+#fb-logo{
+
+    width: 100px;
+    height: auto;
+
+
+}
+#bjk-logo{
+
+    width: 80px;
+    height: auto;
+
+
+}
+#ts-logo{
+
+    width: 100px;
+    height: auto;
+
+
+}
+.teams-section  p{
+
+    text-align: center;
+    
+
+
+}
+.info-section{
+
+    background-color:#E5E7EB ;
+    padding: 100px;
+    text-align: center;
+    
+
+}
+.sign-up_section{
+
+    padding: 100px;
+    
+
+
+}
+.sign-up_content{
+
+    display: flex;
+    background-color: #3882f6;
+    width: 900px;
+    height: auto;
+    margin: auto;
+    border-radius: 3rem;
+}
+.first-part{
+
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+}
+.first-part h3{
+
+    text-align: center;
+    color: white;
+    font-size: 18px;
+
+}
+.first-part p{
+
+    text-align: center;
+    color: white;
+
+}
+.second-part{
+
+    flex: 1;
+    
+
+}
+.second-part button{
+
+    padding:5px 20px;
+    background-color: #3882f6;
+    margin-top: 35px;
+    border:1px solid white;
+    color: white;
+    border-radius: 10%;
+}
+.second-part button:hover{
+
+    padding:5px 20px;
+    background-color: white;
+    
+    border:1px solid white;
+    color: #3882f6;
+    border-radius: 10%;
+}
+footer{
+
+    padding:20px;
+    text-align: center;
+    background-color: #1F2937;
+    
+    
+
+}
+footer p{
+
+    text-align: center;
+    color: #E5E7EB;
+    
+    
 
 }
